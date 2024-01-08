@@ -1,0 +1,21 @@
+//Imports
+@import 'variabels';
+@import "fonts";
+@import "header";
+@import "global";
+
+//import components
+@import "./components/input";
+
+
+// Variables of colors
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: $primary-color;
+    color: black;
+}   
+
+
